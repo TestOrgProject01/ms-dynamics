@@ -9,7 +9,7 @@ env:
   JF_URL: https://mgmresorts.jfrog.io
   JFROG_USERNAME: 'arana@mgmresorts.com'
   RT_REPO_VIRTUAL: 'gaming-hospitality-iac-terraform-dev-virtual'
-  JFROG_CLI_LOG_LEVEL: 'ERROR' # DEBUG, INFO, WARN, ERROR
+  JFROG_CLI_LOG_LEVEL: 'DEBUG' # DEBUG, INFO, WARN, ERROR
   RBv2_SIGNING_KEY: 'mgmkey'
   PACKAGE_SCOPE: '@mgmresorts'
   OIDC_PROVIDER_NAME: 'test-exploration-oidc'
