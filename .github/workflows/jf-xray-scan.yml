@@ -1,0 +1,77 @@
+# gaming-hospitality-iac
+name: Upload Terraform Modules to JFrog Artifactory
+
+on:
+  push:
+    branches:
+    - dev
+env:
+  JF_URL: https://mgmresorts.jfrog.io
+  JFROG_USERNAME: 'arana@mgmresorts.com'
+  RT_REPO_VIRTUAL: 'gaming-hospitality-iac-terraform-dev-virtual'
+  JFROG_CLI_LOG_LEVEL: 'ERROR' # DEBUG, INFO, WARN, ERROR
+  RBv2_SIGNING_KEY: 'mgmkey'
+  PACKAGE_SCOPE: '@mgmresorts'
+  OIDC_PROVIDER_NAME: 'test-exploration-oidc'
+  DISABLE_JOB_SUMMARY: false
+  BUILD_NAME: 'example-ms-dynamics-xray'
+  BUILD_ID: "cmd.$(date '+%Y-%m-%d-%H-%M')"
+
+permissions:
+  actions: read # for detecting the Github Actions environment.
+  id-token: write # for creating OIDC tokens for signing.
+  packages: write # for uploading attestations.
+  contents: write # to push updates while version bump and publish to repo, read is fine if there is just read operation​
+  security-events: write # Required for uploading code scanning.
+  issues: read
+
+jobs:
+  buildPublish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v3
+
+    - name: Set up JFrog CLI
+      uses: jfrog/setup-jfrog-cli@v4
+      with:
+        version: 2.72.2
+        oidc-provider-name: ${{env.OIDC_PROVIDER_NAME}}
+      env:
+        JF_URL: ${{ env.JF_URL }}
+        JF_ACCESS_TOKEN: ${{ secrets.JF_TK }}
+
+    # - name: Configure the project's deployment repository
+    #   run: |
+    #     jf terraform-config --repo-deploy=${{env.RT_REPO_VIRTUAL}}
+
+    - name: Xray Audit
+      run: |
+        cd azurerm
+        jf audit --format=table --extended-table=true --secrets=true --iac=true  --sca=true --sast=true --fail=false
+
+    # - name: Publish modules to Artifactory
+    #   run: |
+    #     jf terraform publish --namespace=example --provider=azurerm --tag=v0.0.1 --build-name=${{env.BUILD_NAME}} --build-number=${{env.BUILD_ID}} --module="poc-pin-reset"
+
+    # # - name: Xray Scan Packages
+    #   run: |
+    #     echo "\n\n**** JF: scan ****"
+    #     jf scan . --extended-table=true --format=simple-json  --watches "room-booking-test-watch"
+
+    # - name: Build Info -> Colect Build Environment
+    #   run: |
+    #     jf rt bce ${{env.BUILD_NAME}} ${{env.BUILD_ID}}
+
+    # - name: Build Info -> Git Add Build
+    #   run: |
+    #     jf rt bag ${{env.BUILD_NAME}} ${{env.BUILD_ID}}
+
+    # - name: Build Publish
+    #   run: |
+    #     jf rt bp ${{env.BUILD_NAME}} ${{env.BUILD_ID}} --detailed-summary=true
+
+    # - name: Build Scan
+    #   run: |
+    #     jf bs ${{env.BUILD_NAME}} ${{env.BUILD_ID}} --rescan=true --format=table --extended-table=true --vuln=true --fail=false
