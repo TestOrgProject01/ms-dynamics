@@ -1,0 +1,264 @@
+name: JFrog Build, Publish 
+
+on:
+  push:
+    branches: ['ssdlc-feature']
+
+    paths-ignore:
+      # When the below folders are checked-in, the GitHub Actions job will not start.
+      #  - '.github/**'
+      - '.jfrog/**'
+
+env:
+  JF_RT_URL: https://mgmresorts.jfrog.io
+  JFROG_USERNAME: 'arana@mgmresorts.com'
+  RT_REPO_VIRTUAL: 'mgm-services-cloud-automation-virtual'
+  JFROG_CLI_LOG_LEVEL: 'ERROR' # DEBUG, INFO, WARN, ERROR
+  BUILD_NAME: 'mgm-ca'
+  BUILD_ID: "mgm-ca.$(date '+%Y-%m-%d-%H-%M')"
+  RBv2_SIGNING_KEY: 'mgmkey'
+  PACKAGE_SCOPE: '@mgmresorts'
+  OIDC_PROVIDER_NAME: 'mgmri-commerce-oidc'
+  DISABLE_JOB_SUMMARY: false;
+  DOTNET_VERSION: '9.0'                     
+
+permissions:
+  actions: read # for detecting the Github Actions environment.
+  id-token: write # for creating OIDC tokens for signing.
+  packages: write # for uploading attestations.
+  contents: write # to push updates while version bump and publish to repo, read is fine if there is just read operation​
+  security-events: write # Required for uploading code scanning.
+  issues: read
+
+jobs:
+  build:
+    concurrency: ci-${{ github.ref }}
+
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Print ENV Vars
+        run: |-
+          echo "JF_RT_URL= ${{env.JF_RT_URL}}"
+          echo "RT_REPO_VIRTUAL= ${{env.RT_REPO_VIRTUAL}}"
+          echo "BUILD_NAME= ${{env.BUILD_NAME}}"
+          echo "BUILD_ID= ${{env.BUILD_ID}}"
+          echo "JFROG_CLI_LOG_LEVEL= ${{env.JFROG_CLI_LOG_LEVEL}}"
+          echo "PACKAGE_SCOPE= ${{env.PACKAGE_SCOPE}}"
+          echo "OIDC_PROVIDER_NAME= ${{env.OIDC_PROVIDER_NAME}}"
+          echo "DISABLE_JOB_SUMMARY= ${{env.DISABLE_JOB_SUMMARY}}"
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          lfs: true
+
+      - name: Git Config User & Git Pull
+        run: |
+          git config --global user.name "MGM CI Bot"
+          git config --global user.email "mgm-ci-bot@users.noreply.github.com"
+      
+      - name: Exract Current branch
+        id: extract_branch
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+      
+      - name: Pull latest updates
+        run: git pull origin ${{ steps.extract_branch.outputs.branch }}    
+          
+      - name: Install OpenSSL
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libssl-dev libssl3 
+
+      - name: Set OpenSSL Library Path
+        run: |
+          echo "export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH" >> $GITHUB_ENV
+
+      
+      - name: Set environment variables for OpenSSL
+        run: |
+          echo "/usr/lib/x86_64-linux-gnu" | sudo tee -a /etc/ld.so.conf.d/openssl.conf
+          sudo ldconfig
+
+      
+      - name: Dotnet setup
+        uses: actions/setup-dotnet@v4
+        with:
+            dotnet-version: ${{env.DOTNET_VERSION}}
+         
+
+      - name: Setup JFrog CLI
+        uses: jfrog/setup-jfrog-cli@v4
+        id: setup-cli
+        with:
+          version: 2.72.2
+          oidc-provider-name: ${{env.OIDC_PROVIDER_NAME}}
+          # comment oidc-provider-name when you test locally on codespace with act, getting an error for "ACTION_*" variable,
+          # and uncomment when you test on gitub runner
+          disable-job-summary: false
+        env:
+          JF_URL: ${{env.JF_RT_URL}}
+          JFROG_CLI_RELEASES_REPO: '${{ env.JF_RT_URL }}/artifactory/${{ env.RT_REPO_VIRTUAL}}'
+          JFROG_CLI_EXTRACTORS_REMOTE: '${{ env.JF_RT_URL }}/artifactory/${{ env.RT_REPO_VIRTUAL}}'
+          JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # JF_ACCESS_TOKEN: ${{env.JFROG_TOKEN}} # comment this out when you test on gitub runner,
+          # and uncomment when test locally on codespace with act, getting an error for "ACTION_*" variable
+
+      - name: Add Nuget Sources & Set OIDC Token as env variable JFROG_TOKEN
+        if: true
+        run: |-
+          dotnet nuget add source https://nuget.pkg.github.com/MGMResorts/download/mgm.framework.authentication/index.json -n MGMResorts -u aranaMGM -p ${{secrets.GITHUB_TOKEN}} --store-password-in-clear-text
+          dotnet nuget add source https://mgmresorts.jfrog.io/artifactory/api/nuget/v3/mgm-services-cloud-automation-virtual/index.json -n Artifactory -u arana@mgmresorts.com -p ${{ steps.setup-cli.outputs.oidc-token }} --store-password-in-clear-text
+          echo JFROG_TOKEN=${{ steps.setup-cli.outputs.oidc-token }} >> $GITHUB_ENV
+
+           
+      - name: Configure the project's repositories
+        run: |
+            jf dotnet-config --repo-resolve='${{ env.RT_REPO_VIRTUAL}}'
+
+      - name: Restores the dependencies and tools of the project from Artifactory
+        run: |
+          cd /home/runner/work/mgm-ssdlc-sre-services-cloudAutomation/mgm-ssdlc-sre-services-cloudAutomation/CloudAutomationService
+          dotnet restore CloudAutomationService.sln --no-cache -s https://nuget.pkg.github.com/MGMResorts/index.json -s https://mgmresorts.jfrog.io/artifactory/api/nuget/v3/mgm-services-cloud-automation-virtual/index.json 
+          # --build-name=${{ env.BUILD_NAME}} --build-number=${{ env.BUILD_ID}}
+
+      - name: Xray Audit  # ref: https://docs.jfrog-applications.jfrog.io/jfrog-applications/jfrog-cli/cli-for-jfrog-security/scan-your-source-code
+        run: |
+          cd /home/runner/work/mgm-ssdlc-sre-services-cloudAutomation
+          jf audit --nuget=true --format=table --extended-table=true --secrets=true --sast=true --sca=true --licenses=true --fail=false # >> $GITHUB_STEP_SUMMARY
+
+      - name: Bump version number
+        id: bump-version
+        run: |
+          cd /home/runner/work/mgm-ssdlc-sre-services-cloudAutomation/mgm-ssdlc-sre-services-cloudAutomation/CloudAutomationService/CAS
+
+          echo "Bumping version number..."
+          current_version=$(cat CloudAutomationService.csproj | grep -oPm1 "(?<=<Version>)[^<]+")
+          IFS='.' read -r -a version_parts <<< "$current_version"
+          major="${version_parts[0]}"
+          minor="${version_parts[1]}"
+          patch="${version_parts[2]}"
+          new_patch=$((patch + 1))
+          new_version="$major.$minor.$new_patch"
+          echo "New version: $new_version"
+          sed -i "s/<Version>.*<\/Version>/<Version>$new_version<\/Version>/" CloudAutomationService.csproj
+          git add CloudAutomationService.csproj
+          git commit -m "Bump version to $new_version"
+          git push
+          
+      - name: Build
+        run: |
+          cd /home/runner/work/mgm-ssdlc-sre-services-cloudAutomation/mgm-ssdlc-sre-services-cloudAutomation/CloudAutomationService
+          dotnet pack
+
+      - name: Xray Scan  # ref: https://docs.jfrog-applications.jfrog.io/jfrog-applications/jfrog-cli/cli-for-jfrog-security/scan-your-binaries
+        run: |
+          jf scan . --extended-table=true 
+          
+      - name: Upload the packages to a NuGet repository in Artifactory
+        run: |
+          jf rt u "*.nupkg" ${{env.RT_REPO_VIRTUAL}}/ --build-name=${{ env.BUILD_NAME}} --build-number=${{ env.BUILD_ID}}
+
+          
+      - name: Collect env
+        run: jf rt bce ${{ env.BUILD_NAME }} ${{ env.BUILD_ID }}
+
+      - name: Add VCS info
+        run: jf rt bag ${{ env.BUILD_NAME }} ${{ env.BUILD_ID }} 
+
+      - name: Build Publish
+        run: jf rt bp ${{ env.BUILD_NAME }} ${{ env.BUILD_ID }} --detailed-summary=true
+
+      - name: Build Scan  # ref: https://docs.jfrog-applications.jfrog.io/jfrog-applications/jfrog-cli/cli-for-jfrog-security/scan-published-builds
+        run: jf bs ${{ env.BUILD_NAME }} ${{ env.BUILD_ID }} --rescan=true --format=table --extended-table=true --vuln=true --fail=false 
+
+
+        # Release Bundle v2
+      - name: RBv2 spec - create
+        run: |
+          echo "{ \"files\": [ {\"build\": \"${{ env.BUILD_NAME}}/${{ env.BUILD_ID }}\" } ] }"  > RBv2-SPEC-${{ env.BUILD_ID }}.json
+      - name: RBv2 spec - print
+        run: |
+          cat RBv2-SPEC-${{ env.BUILD_ID }}.json
+      - name: RBv2 Create NEW
+        run: |
+          jf rbc ${{ env.BUILD_NAME}} ${{ env.BUILD_ID }} --sync="true" --signing-key=${{env.RBv2_SIGNING_KEY}} --spec=RBv2-SPEC-${{ env.BUILD_ID }}.json
+      - name: RBv2 promote DEV
+        run: |
+          jf rbp ${{ env.BUILD_NAME}} ${{ env.BUILD_ID }} DEV --sync="true" --signing-key=${{env.RBv2_SIGNING_KEY}} --include-repos="mgm-services-cloud-automation-promote-dev-local"
+      - name: RBv2 promote QA
+        run: |
+          jf rbp --sync=true --signing-key=${{env.RBv2_SIGNING_KEY}}  ${{ env.BUILD_NAME}} ${{ env.BUILD_ID }} QA  --include-repos="mgm-services-cloud-automation-promote-qa-local"
+
+
+      - name: rbv2-summary
+        run: |
+          echo "# :frog: Release Bundle v2 Summary :rocket: " >> $GITHUB_STEP_SUMMARY
+          echo " " >> $GITHUB_STEP_SUMMARY
+          echo " " >> $GITHUB_STEP_SUMMARY
+          # echo "<details><summary>The RBv2 artifacts has elevated to the subsequent stages</summary>" >> $GITHUB_STEP_SUMMARY
+          echo "The Build Artifacts has elevated to the subsequent stages" >> $GITHUB_STEP_SUMMARY
+          RB2_STATUS_RESP=$(curl -v -G ${JF_RT_URL}/lifecycle/api/v2/promotion/records/${{ env.BUILD_NAME}}/${{ env.BUILD_ID }}?async=false -H 'Content-Type:  application/json' -H "Authorization: Bearer ${{ steps.setup-cli.outputs.oidc-token }}")
+          echo $RB2_STATUS_RESP > RBv2_STATUS-${{env.BUILD_ID}}.json
+          cat RBv2_STATUS-${{env.BUILD_ID}}.json 
+          # export RB2_STATUS=$(echo $RB2_STATUS_RESP | jq -r '.promotions[0].environment')
+          items=$(echo "$RB2_STATUS_RESP" | jq -c -r '.promotions[]')
+          for item in ${items[@]}; do
+          # {"status":"COMPLETED","repository_key":"release-bundles-v2","release_bundle_name":"spring-petclinic-ga","release_bundle_version":"58","environment":"QA","service_id":"s","created_by":"token:***","created":"2024-09-21T00:53:57.326Z","created_millis":1726880037326,"xray_retrieval_status":"RECEIVED"}
+            envVal=$(echo $item | jq -r '.environment')
+            crtVal=$(echo $item | jq -r '.created')
+            echo " - ${envVal} on ${crtVal} " >> $GITHUB_STEP_SUMMARY
+          done
+          echo " " >> $GITHUB_STEP_SUMMARY
+
+  analyze:
+    name: Analyze Code with CodeQL
+    #needs: build
+    runs-on: 'ubuntu-latest'
+    permissions:
+      security-events: write
+      contents: read
+      packages: read
+      actions: read
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - language: csharp
+            build-mode: none
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL for ${{ matrix.dir }}
+        uses: github/codeql-action/init@v3
+        with:
+         languages: ${{ matrix.language }}
+         build-mode: ${{ matrix.build-mode }}
+        
+      - if: matrix.build-mode == 'manual'
+        shell: bash
+        run: |
+         echo 'If you are using a "manual" build mode for one or more of the' \
+          'languages you are analyzing, replace this with the commands to build' \
+          'your code, for example:'
+         echo '  make bootstrap'
+         echo '  make release'
+         exit 1
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+         category: "language:${{matrix.language}}"
+         upload: false
+         output: "./codeql-results"
+        
+      - name: Verify SARIF File Exists
+        run: |
+          ls -al ./codeql-results/
+          cat ./codeql-results/csharp.sarif
+       # Step 5: Upload SARIF File as Artifact
+      - name: Upload SARIF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: codeql-results-sarif
+          path: ./codeql-results/csharp.sarif
