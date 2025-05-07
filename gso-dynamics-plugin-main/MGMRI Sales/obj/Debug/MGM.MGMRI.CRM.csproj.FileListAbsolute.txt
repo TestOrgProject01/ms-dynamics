@@ -1,0 +1,290 @@
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Buffers.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Memory.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Text.Json.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Buffers.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Memory.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Text.Json.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CopyComplete
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+D:\Users\SKAMBLE\source\repos\MGMRI Sales\obj\Debug\MGMRI Sales.pdb
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Buffers.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Memory.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Text.Json.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Buffers.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Memory.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Text.Json.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\930408\source\repos\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+C:\Users\930408\source\repos\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\930408\source\repos\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CopyComplete
+C:\Users\930408\source\repos\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+C:\Users\930408\source\repos\MGMRI Sales\obj\Debug\MGMRI Sales.pdb
+C:\Users\930408\source\repos\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\MGMRI Sales.dll.config
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\MGMRI Sales.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\MGMRI Sales.pdb
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Buffers.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Memory.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Text.Json.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.ValueTuple.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Buffers.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Memory.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Text.Json.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\bin\Debug\System.ValueTuple.xml
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\obj\Debug\MGM.MGMR.009811E2.Up2Date
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\obj\Debug\MGMRI Sales.dll
+C:\Users\864723\OneDrive - Cognizant\Desktop\Plugin\MGMRI Sales (1)\obj\Debug\MGMRI Sales.pdb
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Buffers.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Memory.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Text.Json.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Buffers.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Memory.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Text.Json.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\obj\Debug\MGM.MGMR.009811E2.Up2Date
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+C:\Users\NPALEM\OneDrive - MGM Resorts International\MGM\MGMRI Sales\obj\Debug\MGMRI Sales.pdb
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGMRI Sales.pdb
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Buffers.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Memory.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Json.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Buffers.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Memory.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Json.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+C:\Users\SSHIVANAG1\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGM.MGMR.009811E2.Up2Date
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Buffers.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Memory.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ServiceModel.Http.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Json.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Buffers.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Memory.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ServiceModel.Http.pdb
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Text.Json.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGM.MGMR.009811E2.Up2Date
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGM FOLDER\MGMRI Sales (2)\MGMRI Sales\obj\Debug\MGMRI Sales.pdb
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Buffers.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Memory.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Http.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Text.Json.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Buffers.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Memory.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Http.pdb
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Text.Json.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\obj\Debug\MGM.MGMR.009811E2.Up2Date
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+C:\Users\WPATEL\Repos\plugin-crminsight-dynamics\MGMRI\MGMRI Sales\obj\Debug\MGMRI Sales.pdb
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Buffers.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Memory.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Http.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Text.Json.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Buffers.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Memory.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Http.pdb
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Text.Json.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\obj\Debug\MGM.MGMR.009811E2.Up2Date
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+C:\Users\SSHIVANAG1\OneDrive - MGM Resorts International\Desktop\MGMRI\MGMRI Sales\obj\Debug\MGMRI Sales.pdb
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\MGMRI Sales.dll.config
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\MGMRI Sales.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\MGMRI Sales.pdb
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Buffers.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Memory.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.ServiceModel.Http.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Text.Json.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.ValueTuple.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\Newtonsoft.Json.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Buffers.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Memory.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.ServiceModel.Http.pdb
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Text.Json.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\bin\Debug\System.ValueTuple.xml
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.AssemblyReference.cache
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\obj\Debug\MGM.MGMRI.CRM.csproj.CoreCompileInputs.cache
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\obj\Debug\MGM.MGMR.009811E2.Up2Date
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\obj\Debug\MGMRI Sales.dll
+C:\Users\WPATEL\Documents\Code\gso-dynamics-plugin\gso-dynamics-plugin\MGMRI Sales\obj\Debug\MGMRI Sales.pdb

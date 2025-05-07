@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SSHIVANAG1\\OneDrive - MGM Resorts International\\Desktop\\MGMRI\\MGMRI Sales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{827A81B6-8BFE-4ACB-8B22-D14731BF1102}|MGM.MGMRI.CRM.csproj|c:\\users\\sshivanag1\\onedrive - mgm resorts international\\desktop\\mgmri\\mgmri sales\\plugins\\inquiries\\setassignedinquiryplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{827A81B6-8BFE-4ACB-8B22-D14731BF1102}|MGM.MGMRI.CRM.csproj|solutionrelative:plugins\\inquiries\\setassignedinquiryplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SetAssignedInquiryPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\SSHIVANAG1\\OneDrive - MGM Resorts International\\Desktop\\MGMRI\\MGMRI Sales\\Plugins\\Inquiries\\SetAssignedInquiryPlugin.cs",
+              "RelativeDocumentMoniker": "Plugins\\Inquiries\\SetAssignedInquiryPlugin.cs",
+              "ToolTip": "C:\\Users\\SSHIVANAG1\\OneDrive - MGM Resorts International\\Desktop\\MGMRI\\MGMRI Sales\\Plugins\\Inquiries\\SetAssignedInquiryPlugin.cs",
+              "RelativeToolTip": "Plugins\\Inquiries\\SetAssignedInquiryPlugin.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAQwHsAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T14:53:16.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
